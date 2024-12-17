@@ -49,7 +49,7 @@ fun MainScreen(navController: NavController, notes: MutableList<Note>) {
                             .clickable {
                                 expandedNoteId = if (expandedNoteId == note.id) null else note.id
                             },
-                        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.onPrimaryContainer),
+                        colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.primaryContainer),
                         elevation = CardDefaults.cardElevation(defaultElevation = 4.dp)
                     ) {
                         Column(modifier = Modifier.padding(16.dp)) {
