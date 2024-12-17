@@ -55,7 +55,7 @@ fun MainScreen(navController: NavController, notes: MutableList<Note>) {
                         Column(modifier = Modifier.padding(16.dp)) {
                             Text(
                                 text = note.title,
-                                style = MaterialTheme.typography.titleMedium,
+                                style = MaterialTheme.typography.titleLarge,
                                 color = Color.Black
                             )
 
