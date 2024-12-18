@@ -34,7 +34,7 @@ fun NoteData (
                 errorTextColor = MaterialTheme.colorScheme.error
             )
         )
-        titleError?.let { Text(it, color = MaterialTheme.colorScheme.error) }
+        titleError?.let { Text(it, color = Color.Red) }
 
         Spacer(modifier = Modifier.height(8.dp))
 
